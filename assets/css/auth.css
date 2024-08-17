@@ -118,7 +118,7 @@ label, p{
 position: absolute;
 }
 
-@media (min-width: 440px) and (max-width: 830px) {
+@media (min-width: 380px) and (max-width: 830px) {
     .ex {
         display: none;
     }
