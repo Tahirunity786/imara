@@ -1,7 +1,7 @@
 @font-face {
     font-family: Poppins;
     src: url(../fonts/Poppins-Regular.ttf);
-    
+
 }
 
 * {
@@ -37,10 +37,13 @@ body {
     background-color: rgba(255, 255, 255, 0.21);
     padding: 12px;
 }
-.bf4 h1{
-    font-size: 16px; font-weight: 700;
+
+.bf4 h1 {
+    font-size: 16px;
+    font-weight: 700;
 }
-.bf4 a{
+
+.bf4 a {
     font-weight: 700;
 }
 
@@ -60,7 +63,7 @@ body {
     border-radius: 30px;
     padding: 20px;
     display: flex;
-    
+
 
 }
 
@@ -86,18 +89,21 @@ input[type="email"] {
     display: block;
     border-radius: 50px;
     width: 25rem;
-    height: 45px; padding: 20px;
+    height: 45px;
+    padding: 20px;
 }
 
 input[type="email"]:focus {
     border-color: #717070;
-    
+
 }
 
-label, p{
+label,
+p {
     font-family: Poppins;
 }
-.btn-bs6{
+
+.btn-bs6 {
     background-color: #3F556D;
     border-radius: 50px;
     width: 12.5rem;
@@ -111,16 +117,23 @@ label, p{
     cursor: pointer;
 }
 
-.ex{
+.ex {
     position: relative;
 }
-.ex .e1, .e2, .e3{
-position: absolute;
+
+.ex .e1,
+.e2,
+.e3 {
+    position: absolute;
 }
 
 @media (min-width: 380px) and (max-width: 830px) {
     .ex {
         display: none;
+    }
+
+    #email {
+        width: 100%;
     }
 
     .b-2erte {
@@ -130,9 +143,11 @@ position: absolute;
         padding: 0;
     }
 
-    .bup12, .b-1erte {
+    .bup12,
+    .b-1erte {
         padding: 0;
-        margin: 20px 0;
+        margin-top: 110px;
+        margin-bottom: 50px;
     }
 
     .b-3erte {
